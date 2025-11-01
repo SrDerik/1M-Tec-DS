@@ -1,0 +1,19 @@
+Unix foi o primeiro, roda apenas em wireframes, Solares foi uma versão avançada/ parte 2 do Unix
+
+Solares roda em 32/64 bits, tinha inteface XWindows, suportava Java, C++, Pascal e outros) e memória virtual gerenciável.
+
+Debian,Ubuntu,SlackWare, Suse e Caldera 
+
+KDE e GNOME são os principais tipos de gerenciador de interface gráfica
+
+Fdisk faz formatação do disco
+
+CommandCom faz operação dos comandos.
+
+Diretorios
+
+/- No linux
+C:- No Windows
+
+/ é o diretório raiz do Linux
+Consegue criar pasta aí se for "root" (no linux) e "administrador" (no Windows)
