@@ -1,0 +1,149 @@
+/* 
+Imports 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* 
+Geral 
+*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/*
+ Rootzin 
+*/
+:root{
+   --preto: black;
+   --cinza:#555;
+   --branco: white;
+   --cor-principal: #0a85e9;
+   --cor-secundaria: rgba(0, 38, 255, 0.644);
+   --cor-terciaria:#4f46e5;
+   --fonte-texto: 'Open-sans', sans-serif;
+   --fonte-subtitulo:'Poppins', sans-serif;
+   --fonte-titulo: 'Montserrat', sans-serif;
+}
+/*
+Colocando o fundo
+*/
+body{
+    background-image: url('Background.webp');
+    background-size: cover;          
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*
+Deixando o fundo transparente (apenas estou colocando uma camada transparente e branca em cima do background)
+*/
+body::before {
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.726);
+  z-index: -1;
+}
+
+/*
+Espacamento pro meio, tamanho da fonte e fonte do titulo
+*/
+h1{
+    margin-top: 24rem;
+    font-family: var(--fonte-titulo);
+    font-size: 5rem;
+}
+/*
+Espacamento, tamanho da fonte e fonte
+*/
+h2{
+   font-family: var(--fonte-titulo);
+   font-size: 1.5rem;
+   margin-top: 1rem;
+}
+
+/*
+Centralizando os elementos dentro do form
+*/
+form {
+   text-align: center;
+}
+
+/*
+Espacamento, tamanho da fonte e fonte
+*/
+p{
+   font-family: var(--fonte-titulo);
+   font-size: 1.5rem;
+   margin-bottom: 1rem;
+}
+
+/*
+Estilizacao do input
+*/
+input{
+    margin-top: 10px;
+    padding: 16px 32px;
+    color:var(--preto);
+    font-family: var(--fonte-subtitulo); 
+    border-width: 2px;
+    border-color:var(--cor-principal);
+    border-radius: 7px;
+    transition: 400ms ease-in-out;
+    cursor:pointer;
+}
+
+/*
+Estilizacao do botao
+*/
+button{
+    margin-top: 2vh;
+    margin-left: 0.6rem;
+    padding: 16px 32px;
+    color:var(--branco);
+    font-family: var(--fonte-subtitulo); 
+    background: linear-gradient(to right, var(--cor-principal), var(--cor-terciaria));
+    border-radius: 4px;
+    border:none;
+    transition: 400ms ease-in-out;
+    cursor:pointer;
+}     
+
+/*
+Botao com animacao pra dar zoom com delay
+*/
+   button:hover{
+   transform: scale(1.05);
+   opacity:0.9;
+}
+
+/*
+Botao do input com animacao pra dar zoom com delay e mudar de cor
+*/
+input:hover{
+   transform: scale(1.05);
+   border-color:var(--cor-secundaria);
+}
+
+/*
+Botao do input com animacao pra dar zoom com delay e mudar de cor
+*/
+#alinhamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+Responsividade pro H1 e adaptacao do P
+*/
+@media (max-width: 881px) {
+    h1 { font-size: 2rem; }
+    p {font-size: 1.3rem;}
+}
