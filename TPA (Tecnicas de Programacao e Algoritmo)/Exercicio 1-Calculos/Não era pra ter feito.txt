@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+
+Scanner scanner = new Scanner (System.in);  //Cria um scanner para que ele compute oque está sendo informado
+
+     System.out.printIn("Calculadora");
+     System.out.printIn("Escolha uma das opções");
+     System.out.PrintIn("1-Área do triângulo");
+     System.out.printIn("2-Circunferência");         
+     System.out.printIn("3-Área ao cubo");
+     System.out.printIn("");
+     int opcao = scanner.nextInt();
+     
+     switch (opcao) {
+         case 1:
+             System.out.print("");        
+             double base = scanner.nextDouble();
+             System.out.print ("");
+             double altura =scanner.nextDouble();  
+             double areaTriangulo =scanner.nextDouble();
+
+
+
+
+//printIn serve para leitura de dados
