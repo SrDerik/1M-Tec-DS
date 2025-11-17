@@ -1,0 +1,58 @@
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(0, 0, 0);
+ }
+
+ span{
+    color:rgb(255, 255, 255);
+ }
+
+body {
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.973), rgb(255, 255, 255))             /* Muda a cor de fundo */
+};     
+
+.mainshield {
+    margin: 0;
+    width: 200px;
+}
+
+.excalisec {
+     margin: 0;
+     width: 200px;
+     padding:20px     
+    }
+
+.navExcalisec{
+width:200px;
+}
+.navDoeAqui{
+align-items: right;
+margin-left:47rem;
+
+}
+
+#center {
+     display:grid; 
+     align-items:center;                                   /*Centraliza, precisa colocar <div> no inicio das coisas que quer centralizar e <\div> pra fechar*/
+     justify-content: center;
+    }
+
+    
+#right {
+ display:grid; 
+ align-items:right;                                       /*Centraliza, precisa colocar <div> no inicio das coisas que quer centralizar e <\div> pra fechar*/
+ justify-content: right;
+}
+
+#left {
+ display:grid; 
+ align-items:left;                                       /*Centraliza, precisa colocar <div> no inicio das coisas que quer centralizar e <\div> pra fechar*/
+ justify-content: left;}
+
+.bottom { 
+     background:linear-gradient(to top, rgba(148, 240, 240, 0.973), rgb(255, 255, 255));
+     border-radius: 20px ;
+}
+
+
+                                                                                           
