@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+ <head>
+     <meta charset="UTF-8">                                         
+     <meta name="viewport" content="width=device-width, initial-scale=1">  
+     <meta http-equiv="X-UA-Compatible" content="Ie=edge">
+     <meta name="keywords" content="Anti virus, proteção digital, privacidade"> 
+     <meta name="author" content="Derik, D3">
+
+     <link rel="stylesheet" href="style.css">
+
+     <!--Swiper 12-->
+         <link href="https://cdn.jsdelivr.net/npm/swiper@12.0.3/swiper-bundle.min.css" rel="stylesheet">
+     <!-- Link Swiper's CSS -->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+     <title> Exalisec </title>      
+    </head>
+
+ <body>
+    <!--NavBar das outras páginas (não incluso nesta versão)-->
+    <nav> 
+         <img src="Image/Excalisec.png" alt="Excalisec">
+         <ul>
+         <li><a href="index.html">Home</a> </li>
+         <li><a href="SobreNos/sobrenos.html">About Us</a> </li>
+         <li><a href="Doe/doe.html">Donation</a> </li>
+         <li><a href="https://www.malwarebytes.com/pt-br/">Download</a> </li>
+        </ul>   
+     </nav>
+
+          <!--Slide 1-->
+        <section class="main swiper mySwiper">
+          <div class="wrapper swiper-wrapper">
+           <div class="slide swiper-slide">
+            <img class="image" src="Image/R34.png" alt="Parceira ExcalisecXNissan">
+            
+            <div class="imageTexto">
+                <span class="texto">Escalisec x Nissan</span>
+                  <h2>
+                    A POTÊNCIA NA QUAL VOCÊ PRECISA</h2>   
+                  <a class="buttonDownload" href="https://www.malwarebytes.com/pt-br/">Download</a>       
+            </div>
+           </div>
+
+              <!--Slide 2-->
+              <div class="slide swiper-slide">
+            <img class="image" src="Image/IBM.png" alt="Parceira ExcalisecXNissan">
+            
+            <div class="imageTexto">
+                <span class="texto">Escalisec x IBM</span>
+                  <h2>A SEGURANÇA IDEAL</h2>   
+                  <a class="buttonDownload" href="https://www.malwarebytes.com/pt-br/">Download</a>       
+            </div>
+           </div>
+          
+            <!--Botoẽs do carousel-->
+          </div>
+          <div class="swiper-button-next swiperButton"></div>
+          <div class="swiper-button-prev swiperButton"></div>
+          <div class="swiper-pagination swiperButton"></div>
+        </section>
+
+     <!--Diferenciais-->
+     <section id="diferenciais">
+         <h2>Nossos Diferenciais</h2>
+
+         <ul>
+             <li>Proteção em tempo real contra ameaças</li>
+             <li>VPN ilimitada para maior privacidade</li>
+             <li>Proteção contra ransomware e phishing</li>
+             <li>100% gratuito e open-source</li>
+          </ul>
+     </section>
+       <!--Tabela-->
+     <section id="tabela">
+          <h2>Tabela de Comparação</h2>
+              <table border="1" cellpadding="5" cellspacing="0">
+              <!--Head da tabela-->
+                 <tr>
+                     <th>Antivírus</th>
+                     <th>Plataformas</th>
+                     <th>Preço (anual)</th>
+                     <th>Proteção em Tempo Real</th>
+                     <th>Recursos Extras</th>
+                  </tr>
+
+                 <tr> <!--Avast antívirus (Lixo)-->
+                     <td>Avast</td>
+                     <td>Windows</td>
+                     <td>Grátis</td>
+                     <td>Sim*</td>
+                     <td>Firewall</td>
+                  </tr>
+
+                 <tr> <!--Kaspersky antívirus-->
+                     <td>Kaspersky</td>
+                     <td>Windows, macOS</td>
+                     <td>R$ 119,90</td>
+                     <td>Sim</td>
+                     <td>VPN limitada, controle parental</td>
+                  </tr>
+
+                 <tr> <!--Escalisec antívirus (Minha empresa)-->
+                     <td>Escalisec</td>
+                     <td>Windows, MacOs, Android, Ios</td>
+                     <td>Grátis</td>
+                     <td>Sim</td>
+                     <td>FireWall, VPN ilimitada, antirroubo, proteção contra ransomware, proteção de identidade</td>
+                  </tr>
+
+                 <tr> <!--Bitdefender antívirus-->
+                     <td>Bitdefender</td>
+                     <td>Windows, Android</td>
+                     <td>R$ 159,90</td>
+                     <td>Sim</td>
+                     <td>VPN, antirroubo, otimizador de sistema</td>
+                  </tr>
+
+                 <tr> <!--AVG antívirus-->
+                     <td>AVG</td>
+                     <td>Windows, Android</td>
+                     <td>R$ 99,90</td>
+                     <td>Não</td>
+                     <td>Proteção contra ransomware, firewall</td>
+                  </tr>
+
+                 <tr> <!--McAfee antívirus-->
+                     <td>McAfee</td>
+                     <td>Windows, macOS, Android, iOS</td>
+                     <td>R$ 129,90</td>
+                     <td>Sim</td>
+                     <td>VPN, proteção de identidade</td>
+                 </tr>
+              </table>
+      </section>
+
+         <!--Contribuidores-->
+         <section class="contribuidores">
+             <h2>Contribuidores</h2>
+
+             <div class="card">
+                <img src="Image/Derik.jpeg" alt="Foto D3">
+                  <p>D3</p>
+           </div>
+
+       <script src="script.js"></script>
+
+       <!-- Swiper JS -->
+           <script src="https://cdn.jsdelivr.net/npm/swiper@12.0.3/swiper-bundle.min.js"></script>
+           <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+       
+           <!--Script do Swiper--> 
+        <script>
+             var swiper = new Swiper(".mySwiper", {
+                 slidesPerView: 1,
+                 loop: true,
+                 pagination: {
+                 el: ".swiper-pagination",
+                 clickable: true,
+                },
+                navigation: {
+                 nextEl: ".swiper-button-next",
+                 prevEl: ".swiper-button-prev",
+               },
+            });
+      </script>
+
+</section>
+</html>
